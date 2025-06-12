@@ -19,7 +19,6 @@ import java.time.Duration;
 public class BaseDriver {
     public static Logger LogTutma= LogManager.getLogger(); // Logları ekleyeceğim nesneyi başlattım.
 
-    // aşağısını SDET8 den aldık
     public static WebDriver driver;
     public static WebDriverWait wait;
 
