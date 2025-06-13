@@ -14,8 +14,8 @@ import java.time.Duration;
 
 public class BaseDriverParameter {
 
-    public WebDriver driver;
-    public WebDriverWait wait;
+    public static WebDriver driver;
+    public static WebDriverWait wait;
 
     @BeforeClass(groups = {"Smoke", "Regression"})
     @Parameters("BrowserTipi")
